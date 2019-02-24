@@ -35,7 +35,7 @@ Clone this repository:
 ```
 git clone https://github.com/jtorde/uav_trajectory_optimizer.git
 ```
-Now compile the cvxgen code:
+Now compile the cvxgen code: By default, the compiler will use the option `-Os` for the CVXGEN code. If you want the maximum performance, change it to `-Os` in the Makefile inside the folders cvxgen_*
 ```
 cd uav_trajectory_optimizer
 chmod +x setup.sh 
