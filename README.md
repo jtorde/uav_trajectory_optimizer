@@ -25,9 +25,9 @@ This is a highly efficient solver to generate trajectories for UAVs. It's basica
 
 It includes three solvers to solve for:
 
-* **Velocity-Controlled Trajectories**: State is position
-* **Acceleration-Controlled Trajectories**: States are position and velocity
-* **Jerk-Controlled Trajectories**: States are position, velocity and jerk
+* **Velocity-Controlled Trajectories**: State is position.
+* **Acceleration-Controlled Trajectories**: States are position and velocity.
+* **Jerk-Controlled Trajectories**: States are position, velocity and acceleration,
 
 
 ### Instructions:
