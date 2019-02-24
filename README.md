@@ -50,8 +50,7 @@ catkin build
 
 And finally execute the example:
 ```
-catkin config -DCMAKE_BUILD_TYPE=Release
-catkin build
+./build/cvx/cvx_exec
 ```
 
 ### License
