@@ -78,8 +78,8 @@ int main(int argc, char **argv)
   solver_accel.setq(200000);                // Weight of the final cost
   solver_accel.set_max(max_values);
 
-  solver_accel.set_x0(x0_ex1);
-  solver_accel.set_xf(xf_ex1);
+  solver_accel.set_x0(x0_ex2);
+  solver_accel.set_xf(xf_ex2);
   solver_accel.genNewTraj();
 
   double **x_ex2;
@@ -105,8 +105,8 @@ int main(int argc, char **argv)
   solver_jerk.setq(200000);                          // Weight of the final cost
   solver_jerk.set_max(max_values);
 
-  solver_jerk.set_x0(x0_ex1);
-  solver_jerk.set_xf(xf_ex1);
+  solver_jerk.set_x0(x0_ex3);
+  solver_jerk.set_xf(xf_ex3);
   solver_jerk.genNewTraj();
 
   double **x_ex3;
