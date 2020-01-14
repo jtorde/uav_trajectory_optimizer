@@ -54,6 +54,6 @@ And finally execute the example:
 ```
 
 ### License
-Academic license - for non-commercial use only
+BSD 3-Clause, see License file attached
 
 
