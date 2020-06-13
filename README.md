@@ -11,11 +11,13 @@ Video 1                    |  Video 2
 When using this code, please cite the paper **Real-Time Planning with Multi-Fidelity Models for Agile Flights in Unknown Environments** (ICRA 2019) ([pdf](https://arxiv.org/abs/1810.01035), [video](https://www.youtube.com/watch?v=E4V2_B8x-UI)):
 
 ```bibtex
-@article{tordesillas2018real,
-  title={Real-Time Planning with Multi-Fidelity Models for Agile Flights in Unknown Environments},
+@inproceedings{tordesillas2019real,
+  title={Real-time planning with multi-fidelity models for agile flights in unknown environments},
   author={Tordesillas, Jesus and Lopez, Brett T and Carter, John and Ware, John and How, Jonathan P},
-  journal={arXiv preprint arXiv:1810.01035},
-  year={2018}
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={725--731},
+  year={2019},
+  organization={IEEE}
 }
 ```
 
